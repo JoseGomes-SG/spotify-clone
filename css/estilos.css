@@ -1,0 +1,98 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 15px;
+}
+footer ul li {
+	padding: 0;
+	font-weight: 700;
+}
+footer div>h6 {
+	text-align: left;
+}
+#cabecalho {
+	padding: 15px 0px;
+}
+#cabecalho ul li {
+	font-weight: 700;
+}
+#cabecalho ul li a{
+	color: #fff;
+	padding: 13px 17px;
+}
+#cabecalho ul li a:hover{
+	color: #1ed760;
+}
+#secao {
+	min-height: 845px;
+	background-image: url("../img/spotify-background.svg");
+	background-position: 46% 4%;
+	background-size: 175%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#secao div {
+	text-align: center;
+}
+#secao h1 {
+	letter-spacing: -0.04em;
+	font-size: 156px;
+	font-weight: 700;
+	margin-bottom: 40px;
+}
+#secao p {
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+#secao a {
+	text-transform: uppercase;
+	font-weight: 700;
+	padding: 14px 16px;
+	border-radius: 25px;
+}
+.bg-black {
+	background-color: #000 !important;
+}
+.navbar-brand{
+	padding: 5px 15px;
+}
+.logo {
+	width:132px;
+	height:40px;
+}
+.divisor{
+	width: 1px;
+	height: 16px;
+	background: #fff;
+	margin: auto 10px;
+}
+.list-unstyled {
+	text-align: left;
+}
+.list-unstyled li {
+	padding-bottom: 0.5rem;
+}
+.list-unstyled a {
+	text-decoration: none;
+	color: #fff;
+}
+.list-unstyled a:hover {
+	color: #1ed760;
+}
+.fa {
+	padding: 20px;
+	color: #fff;
+	background-color: #222326;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+	border-radius: 50%;
+}
+.fa:hover {
+    color: #1ed760;
+}
+@media (max-width: 768px) {  
+	#secao h1 {
+		font-size:40px;
+	}
+}
